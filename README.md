@@ -5,25 +5,30 @@
 # Ejecutar en desarrollo
 
 1. Clonar el repositorio
-2. Ejecutar
 
-```
-pnpm install
-```
+2. Ejecutar _"pnpm i"_ para instalar las dependencias
 
-3. Tenr Nest CLI instalado
+   ```sh
+   pnpm install
+   ```
 
-```
-pnpm add -g @nestjs/cli
-```
+3. Tener Nest CLI instalado
+
+   ```sh
+   pnpm i -g @nestjs/cli
+   ```
 
 4. Levantar la base de datos
 
-```
-docker-compose up -d
-```
+   ```sh
+   docker-compose up -d
+   ```
 
-## Stack Usado
+5. Reconstruir la base de datos con la semilla
+
+   - [http://localhost:3000/api/v2/seed](http://localhost:3000/api/v2/seed)
+
+# Stack Usado
 
 - MongoDB
 - Nest
