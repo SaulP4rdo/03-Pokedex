@@ -6,7 +6,7 @@
 
 1. Clonar el repositorio
 
-2. Ejecutar _"pnpm i"_ para instalar las dependencias
+2. Ejecutar **"pnpm i"** para instalar las dependencias
 
    ```sh
    pnpm install
@@ -24,9 +24,19 @@
    docker-compose up -d
    ```
 
-5. Reconstruir la base de datos con la semilla
+5. Clonar el archivo `.env.template` y renombrar la copia a `.env`
+
+6. LLenar las variables de entorno definias en `.env`
+
+7. Reconstruir la base de datos con la semilla
 
    - [http://localhost:3000/api/v2/seed](http://localhost:3000/api/v2/seed)
+
+8. Ejecutar la aplicacion en dev:
+
+   ```sh
+   pnpm start:dev
+   ```
 
 # Stack Usado
 
